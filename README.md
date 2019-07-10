@@ -1,1 +1,2 @@
-Calculating rolling mean in few different ways.
+Calculating rolling mean in few different ways. DirectStream.ipynb calculates in coming data directly. There is a lot of wrong days in a sense of sequence, for example, data can come in this way: 01.01.2018, 02.01.2018., 01.01.2018., 01.01.2018., 01.02.2018,, 01.01.2018. ...
+Never the less, an implemented logic can handle all those situations. Calculations are visible on a graph, but corrections and situations written before can not be visible on the graph because of order.
